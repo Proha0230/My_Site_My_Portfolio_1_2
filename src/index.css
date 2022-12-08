@@ -13,9 +13,11 @@ code {
 }
 
 .myHeader {
-  background-image: url("https://i.ibb.co/1v6d6nj/Header.jpg");
+  background-image: url("https://i.ibb.co/Trc8kQQ/MyHeader.png");
   background-size: cover;
-  height: 14rem;
+  height: 15rem;
+  
+  
 }
 
 
@@ -76,162 +78,108 @@ margin: 1rem;
 	border-color: silver;
 	margin: 1rem;
 }
+
+.MylinkList{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	margin: 0 auto;
+    max-width: 1280px;
+}
+
+.Mylink{
+	text-align: center;
+	margin-block: auto;
+	margin: 1rem;
+}
+
+.imgLink{
+	max-width: 55px;
+}
+
 .links {
 	color: black;
-    font-size: 15px;
+    font-size: 21px;
     font-weight: bolder;
-    margin-left: -1.5rem;
-    background-color: white;
-    padding: 1.5rem;
 }
 
-.lilink{
-	max-height: 0.5rem;
-    padding-bottom: 4.5rem;
-    margin-bottom: -0.4rem;
-}
-
-.lilink :hover{
+.hrefLink :hover{
 	color: aqua;
 }
 
-.divlink{
-	margin-left: 5rem;
-	max-width: 21rem;
+.h2MyLink{
+	text-align: center;
+	margin: 4rem;
 }
 
-@media (min-width: 247px) and (max-width: 305px){
-	.mySitesList {
-		display: block;
-	  }
-	.myHeader {
-		background-size: cover;
-		max-height: 3rem;
-		min-width: 100%;
-	  }
-	.divlink {
-		display: none;
-	}
+.MyStackList{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	margin: 0 auto;
+    max-width: 1280px;
 }
 
-@media (min-width: 306px) and (max-width: 359px){
-	.mySitesList {
-		display: block;
-	  }
-	.myHeader {
-		background-size: cover;
-		max-height: 3.5rem;
-		min-width: 100%;
-	  }
-	.divlink {
-		display: none;
-	}
+.StackItem{
+	text-align: center;
+	margin-block: auto;
+	margin: 1rem;
+}
+
+.imgStack{
+	max-width: 70px;
+}
+
+nav .nav-wrapper {
+	min-width: 100%;
 }
 
 
-@media (min-width: 360px) and (max-width: 446px){
-	.mySitesList {
-		display: block;
-	  }
+@media (min-width: 1128px) and (max-width: 1700px){
 	.myHeader {
 		background-size: cover;
-		max-height: 4.5rem;
-		min-width: 100%;
-	  }
-	.divlink {
-		display: none;
-	}
-}
-
-@media (min-width: 447px) and (max-width: 564px){
-	.myHeader {
-		background-size: cover;
-		max-height: 5.5rem;
-		min-width: 100%;
-	}
-	.divlink {
-		display: none;
-	}
-}
-
-@media (min-width: 565px) and (max-width: 670px){
-	.myHeader {
-		background-size: cover;
-		max-height: 6.5rem;
+		height: 15rem;
 		min-width: 100%;
 		}
-	.divlink {
-		display: none;
+}
+
+@media (min-width: 944px) and (max-width: 1127px){
+	.myHeader {
+		background-size: cover;
+		height: 13rem;
+		min-width: 100%;
 		}
 }
 
-@media (min-width: 671px) and (max-width: 750px){
+@media (min-width: 792px) and (max-width: 943px){
 	.myHeader {
 		background-size: cover;
-		max-height: 7.5rem;
+		height: 11rem;
 		min-width: 100%;
-	  }
-	.divlink {
-		display: none;
-	}
+		}
 }
 
-@media (min-width: 751px) and (max-width: 830px){
+@media (min-width: 587px) and (max-width: 791px){
 	.myHeader {
 		background-size: cover;
-		max-height: 8.5rem;
+		height: 8rem;
 		min-width: 100%;
-	  }
-	.divlink {
-		display: none;
-	}
+		}
 }
 
-@media (min-width: 831px) and (max-width: 1014px){
+@media (min-width: 434px) and (max-width: 586px){
 	.myHeader {
 		background-size: cover;
-		max-height: 10rem;
+		height: 6rem;
 		min-width: 100%;
 		}
-	.divlink {
-		margin-left: 3rem;
-	}
-	.lilink{
-		max-height: 0.5rem;
-		padding-bottom: 3rem;
-		margin-bottom: -0.3rem;
-	}
-	.links {
-		padding: 1rem;
-		margin-left: -0.8rem;
-	}
 }
 
-@media (min-width: 1014px) and (max-width: 1075px){
+@media (min-width: 301px) and (max-width: 433px){
 	.myHeader {
 		background-size: cover;
-		max-height: 12.5rem;
+		height: 5rem;
 		min-width: 100%;
 		}
-		.divlink {
-			margin-left: 3rem;
+	nav .nav-wrapper {
+			min-width: 100%;
 		}
-		.lilink{
-			max-height: 0.5rem;
-			padding-bottom: 4rem;
-			margin-bottom: -0.3rem;
-		}
-		.links {
-			padding: 1rem;
-			margin-left: 0rem;
-		}
-}
-
-
-
-
-@media only screen and (min-width: 0){
-html {
-    font-size: 14.5px;
-}
 }

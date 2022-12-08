@@ -1,7 +1,7 @@
 import {MySitesCardList} from './MySitesCardList';
 import {useState} from 'react'
 
-function Main (props) {
+function Main () {
 
     const [mySites, setMySites] = useState ([
         {id:1,
@@ -38,6 +38,13 @@ function Main (props) {
             description: "Мой первый проект SPA (Single Page Aplication) на React. Это проект с рецептами блюд. База API-TheMealDB на Англ.яз. В проекте используется Роутинг. Есть переход с категорий блюд к самим блюдам из выбранной категории, а так же к самому выбранному рецепту блюда. Поиск работает по категориям блюд.",
             ghlink: "https://github.com/Proha0230/React_SPA_Food_Final_GH_Pages",
             link: "https://proha0230.github.io/React_SPA_Food_Final_GH_Pages/"
+        },
+        {id:6,
+            name: "Github Finder",
+            img: "https://i.ibb.co/rvHjTC3/GH-Finder.jpg",
+            description: "Мое первое приложение написанное на TypeScript - React. Собрано вручную при помощи WebPack. В приложении можно искать пользователей GitHub. Приложение работает через GitHub API. Есть DARK и LIGHT тема для стилизации приложения. Переключается по нажатию на иконку Луны или Солнца.",
+            ghlink: "https://github.com/Proha0230/Project_TS_GH_Searcher_GH_Pages",
+            link: "https://proha0230.github.io/Project_TS_GH_Searcher_GH_Pages/"
         }
         
     ]);
