@@ -45,6 +45,13 @@ function Main () {
             description: "Мое первое приложение написанное на TypeScript - React. Собрано вручную при помощи WebPack. В приложении можно искать пользователей GitHub. Приложение работает через GitHub API. Есть DARK и LIGHT тема для стилизации приложения. Переключается по нажатию на иконку Луны или Солнца.",
             ghlink: "https://github.com/Proha0230/Project_TS_GH_Searcher_GH_Pages",
             link: "https://proha0230.github.io/Project_TS_GH_Searcher_GH_Pages/"
+        },
+        {id:7,
+            name: "Компания Irvas Окна",
+            img: "https://i.ibb.co/BgMYYgn/image.jpg",
+            description: "Мое второй полноценный сайт написанный на HTML/CSS/SASS/LESS и JavaScript. Cобран при помощи Gulp & Webpack. Нажав на кнопку 'РАССЧИТАТЬ СТОИМОСТЬ' откроется калькулятор где клиент вводит параметры и выбирает материал окон, теплый/холодный метод остекления - все данные заносятся в state, который отправляется формой вместе с именем и телефоном клиента на сервер php. Так же реализовано много всего другого.",
+            ghlink: "https://github.com/Proha0230/Project_JS_Irvas_Okna",
+            link: "https://proha0230.github.io/Project_JS_Irvas_Okna/"
         }
         
     ]);

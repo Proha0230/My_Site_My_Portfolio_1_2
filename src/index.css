@@ -12,17 +12,17 @@ code {
     monospace;
 }
 
-.myHeader {
-  background-image: url("https://i.ibb.co/Trc8kQQ/MyHeader.png");
-  background-size: cover;
-  height: 15rem;
-  
-  
+
+nav{
+	height: 11rem;
+	background-color: #fff;
 }
 
-
-nav .brand-logo {
+nav .MyName {
   position: relative;
+  color: black;
+  text-align: center;
+  padding-top: 0.1rem;
 }
 
 .content{
@@ -81,7 +81,7 @@ margin: 1rem;
 
 .MylinkList{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 	margin: 0 auto;
     max-width: 1280px;
 }
@@ -98,7 +98,7 @@ margin: 1rem;
 
 .links {
 	color: black;
-    font-size: 21px;
+    font-size: 16px;
     font-weight: bolder;
 }
 
@@ -108,12 +108,13 @@ margin: 1rem;
 
 .h2MyLink{
 	text-align: center;
-	margin: 4rem;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
 }
 
 .MyStackList{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 	margin: 0 auto;
     max-width: 1280px;
 }
@@ -132,54 +133,33 @@ nav .nav-wrapper {
 	min-width: 100%;
 }
 
+@media (min-width: 250px) and (max-width: 500px){
+	
+	.MyStackList {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
+	.MylinkList{
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
+	.mySitesList {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
 
-@media (min-width: 1128px) and (max-width: 1700px){
-	.myHeader {
-		background-size: cover;
-		height: 15rem;
-		min-width: 100%;
-		}
-}
+	h3{
+		font-size: 2.1rem;
+	}
 
-@media (min-width: 944px) and (max-width: 1127px){
-	.myHeader {
-		background-size: cover;
-		height: 13rem;
-		min-width: 100%;
-		}
-}
+	h4{
+		font-size: 1.9rem;
+	}
 
-@media (min-width: 792px) and (max-width: 943px){
-	.myHeader {
-		background-size: cover;
+	nav{
 		height: 11rem;
-		min-width: 100%;
-		}
+	}
 }
 
-@media (min-width: 587px) and (max-width: 791px){
-	.myHeader {
-		background-size: cover;
-		height: 8rem;
-		min-width: 100%;
-		}
-}
-
-@media (min-width: 434px) and (max-width: 586px){
-	.myHeader {
-		background-size: cover;
-		height: 6rem;
-		min-width: 100%;
-		}
-}
-
-@media (min-width: 301px) and (max-width: 433px){
-	.myHeader {
-		background-size: cover;
-		height: 5rem;
-		min-width: 100%;
-		}
-	nav .nav-wrapper {
-			min-width: 100%;
-		}
+@media (min-width: 250px) and (max-width: 329px){
+	nav{
+		height: 14rem;
+	}
 }
